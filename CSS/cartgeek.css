@@ -1,0 +1,326 @@
+@font-face {
+    font-family: Muli;
+    src: url(Muli-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Muli-ExtraBold;
+    src: url(./static/Muli-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Muli-semibold;
+    src: url(./static/Muli-SemiBold.ttf);
+}
+
+
+
+body{
+    font-family: Muli!important;
+}
+
+
+
+.nav-link{
+    margin-right: 20px;
+}
+
+.active a{
+    color: #18B5B1!important;
+    font-family: Muli-semibold;
+}
+
+
+
+
+.div1{
+    height: 95vh;  
+    padding-top:15vh;
+    text-align: center;
+    background: url(/Images/bgele/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.clients{
+    margin-top: 30vh;
+}
+
+#head1{
+    font-size: 3vw;
+}
+
+#head2{
+    font-size: 2.5vw;
+    
+}
+
+#discussButton{
+    background-color: #18B5B1;
+    padding: 15px 30px 15px 30px;
+    color:white!important;
+    text-decoration: none;
+    font-size: 1.3vw;
+    border-radius: 30px;
+}
+
+.div2{
+    height: 100vh;
+}
+
+
+.divTitle{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 3vw;
+    
+}
+
+.techCard{
+    padding: 30px;
+    box-shadow: 0px 0px 10px gainsboro;  
+    height: 45vh;
+}
+
+.techText{
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+.imgCard{
+    display: block;
+    margin: auto;
+}
+
+.techHeading{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    color:#18B5B1;
+    font-size: 2em;
+}
+
+.process{
+    background-color: #18B5B1;
+    margin-top: 45px;
+    padding-left: 200px;
+    padding-right:200px;
+    padding-bottom: 10px;
+}
+
+.processHead{
+    text-align: center;
+    font-size: 2vw;
+    color:white;
+}
+
+.proTitle{
+    color:white;
+}
+
+
+
+.div3{
+    height: 100vh;
+    padding-top:10vh;
+    background-image: linear-gradient(to bottom, white , rgb(243, 250, 249));
+}
+
+
+
+.clientCard{
+    text-align: center;
+    padding: 50px;
+    font-size: 1.1vw;
+    box-shadow: 0px 0px 10px rgb(228, 228, 228);
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.clImage{
+    margin-right: 60px;
+}
+
+.clName{
+    color:#18B5B1;
+    font-weight: bold;
+}
+
+.clPosition{
+    color: gray;
+}
+
+
+#head3,#head4{
+    text-align: center;
+    font-size: 1.7vw;
+}
+
+.div4{
+    height: 80vh;
+    background-color: #18B5B1;
+}
+
+.formInp{
+    width: 90%;
+    margin-top: 30px;
+    padding: 15px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    background-color: #18B5B1;
+    border: 3px solid white;
+}
+
+.formInp::placeholder {
+    color: White;
+    opacity: 1; 
+  }
+
+#subButton{
+    width: 200px;
+    margin-top: 30px;
+    border:none;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.div5{
+    font-size: 1.2em;
+    padding-top: 100px;
+    background-color: rgb(34, 34, 34);
+    color:white;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 45vh;
+}
+
+.div5 ul{
+    list-style-type: none;
+}
+
+.div5 ul a{
+    color:white!important;
+    margin-left: -40px;
+}
+
+
+@media screen and (max-width:1600px) and (min-width:602px){
+    .div2{
+        height: 140vh;
+    }
+
+    .techCard{
+        height: 65vh;
+    }
+
+    .div3{
+        height: 130vh;
+    }
+
+    .div4{
+        height: 140vh;
+    }
+
+    .div5{
+        height: 70vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    #head1{
+        font-size: 2em;
+    }
+    
+    #head2{
+        font-size: 1.5em;
+        
+    }
+    
+    #discussButton{
+        font-size: 1.5em;
+    }
+
+    .div1{
+        padding-top: 20vh;
+    }
+
+    .div3{
+        height: 200vh;
+    }
+
+    #head3{
+        font-size: 2em;
+    }
+
+    #head4{
+        font-size:2em;
+    }
+
+    .clName{
+        font-size: 4em;
+    }
+    
+    .clPosition{
+        font-size: 3em;
+    }
+
+    .clComment{
+        font-size: 2.9em;
+    }
+
+    .clientCard{
+        padding: 20px;
+
+    }
+
+    .div2{
+        height: 230vh;
+    }
+
+    .techText{
+        font-size: 4vw;
+        text-align: center;
+    }
+    
+    
+    .divTitle{
+        font-size: 10vw;
+    }
+
+    .techCard{
+        margin-bottom: 20px;
+    }
+
+    .div4{
+        height: 120vh;
+    }
+    
+    .about{
+        padding-top: 80px;
+    }
+
+    .div5{
+        height: 120vh;
+    }
+
+}
+
+
+
+
